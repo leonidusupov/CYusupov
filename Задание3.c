@@ -10,7 +10,7 @@ int main (){
 		scanf("%d", &a[i]);
 	}
 	int max = a[0];
-	int max2 = a[0];
+	int max2 = a[1];
 	for (int i = 1; i<n; i = i + 1){
 		if (a[i]> max){
 			max2 = max;
